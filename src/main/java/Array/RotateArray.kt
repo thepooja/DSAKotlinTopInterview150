@@ -14,8 +14,6 @@ fun main() {
     reverse(nums, steps, n - 1)
 
     println(nums.contentToString())
-
-
 }
 
 fun reverse(arr: IntArray, start: Int, end: Int) {
@@ -33,4 +31,6 @@ fun reverse(arr: IntArray, start: Int, end: Int) {
     }
 
 }
+
+
 

@@ -9,7 +9,7 @@ fun main() {
     println("Profit for stocks is - ₹ $profit")
 }
 
-fun maxProfit(prices:IntArray):Int{
+private fun maxProfit(prices:IntArray):Int{
 
     var profit = 0
     var buy = prices[0]
